@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24670335-0428-469f-8e8f-b2d2f41f7ace" name="Default Changelist" comment="Boiler Plate Created">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/UploadToYoutube.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/EnvConfig.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/startServer.ts" afterDir="false" />
+    <list default="true" id="24670335-0428-469f-8e8f-b2d2f41f7ace" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env_sample" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +32,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.19.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="10.17.28" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Program Files (x86)/Yarn/bin" />
+    <property name="nodejs_interpreter_path" value="wsl://UBUNTU2004@/usr/bin/node" />
+    <property name="nodejs_package_manager_path" value="C:\Program Files (x86)\Yarn" />
     <property name="prettier.files.pattern" value="{**/*,*}.{js,ts,jsx,tsx,css,scss}" />
+    <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="node" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\aryan\AppData\Roaming\npm\node_modules\prettier" />
     <property name="run.prettier.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="ts.external.directory.path" value="C:\Users\aryan\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\202.6397.88\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -52,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596268174794</updated>
-      <workItem from="1596268176005" duration="2323000" />
+      <workItem from="1596268176005" duration="3421000" />
     </task>
     <task id="LOCAL-00001" summary="Typescript Configuration Completed">
       <created>1596270156954</created>
@@ -61,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596270156954</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Boiler Plate Created">
+      <created>1596271027719</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596271027719</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,21 +81,41 @@
     <option name="LAST_COMMIT_MESSAGE" value="Boiler Plate Created" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1041" y="509" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596270036392">
+    <state x="1041" y="509" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596271284490">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1041" y="509" key="#com.intellij.fileTypes.FileTypeChooser/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596270036392" />
-    <state x="887" y="218" key="CommitChangelistDialog2" timestamp="1596271018765">
+    <state x="1041" y="509" key="#com.intellij.fileTypes.FileTypeChooser/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596271284490" />
+    <state x="887" y="218" key="CommitChangelistDialog2" timestamp="1596271026407">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="887" y="218" key="CommitChangelistDialog2/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596271018765" />
-    <state x="781" y="364" key="SettingsEditor" timestamp="1596269896902">
+    <state x="887" y="218" key="CommitChangelistDialog2/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596271026407" />
+    <state x="1060" y="474" key="FileChooserDialogImpl" timestamp="1596271173418">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="781" y="364" key="SettingsEditor/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596269896902" />
-    <state x="872" y="448" key="Vcs.Push.Dialog.v2" timestamp="1596270160563">
+    <state x="1060" y="474" key="FileChooserDialogImpl/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596271173418" />
+    <state width="2561" height="159" key="GridCell.Tab.0.bottom" timestamp="1596271411893">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="872" y="448" key="Vcs.Push.Dialog.v2/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596270160563" />
+    <state width="2561" height="159" key="GridCell.Tab.0.bottom/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596271411893" />
+    <state width="2561" height="159" key="GridCell.Tab.0.center" timestamp="1596271411892">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2561" height="159" key="GridCell.Tab.0.center/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596271411892" />
+    <state width="2561" height="159" key="GridCell.Tab.0.left" timestamp="1596271411892">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2561" height="159" key="GridCell.Tab.0.left/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596271411892" />
+    <state width="2561" height="159" key="GridCell.Tab.0.right" timestamp="1596271411893">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2561" height="159" key="GridCell.Tab.0.right/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596271411893" />
+    <state x="781" y="364" key="SettingsEditor" timestamp="1596271251960">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="781" y="364" key="SettingsEditor/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596271251960" />
+    <state x="872" y="448" key="Vcs.Push.Dialog.v2" timestamp="1596271029636">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="872" y="448" key="Vcs.Push.Dialog.v2/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596271029636" />
   </component>
 </project>
