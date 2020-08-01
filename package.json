@@ -4,7 +4,7 @@
   "description": "Project to Upload video to YouTube with YouTube Data API",
   "main": "/dist/index.js",
   "scripts": {
-    "start:dev": "nodemon src/index.ts",
+    "start:dev": "export PORT=8000 && nodemon src/index.ts",
     "build": "tsc",
     "start:prod": "node dist/index.js"
   },

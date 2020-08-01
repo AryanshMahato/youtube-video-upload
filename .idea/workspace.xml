@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24670335-0428-469f-8e8f-b2d2f41f7ace" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="24670335-0428-469f-8e8f-b2d2f41f7ace" name="Default Changelist" comment="Boiler Plate Created">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/UploadToYoutube.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/EnvConfig.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/startServer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +52,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596268174794</updated>
-      <workItem from="1596268176005" duration="1439000" />
+      <workItem from="1596268176005" duration="2323000" />
     </task>
+    <task id="LOCAL-00001" summary="Typescript Configuration Completed">
+      <created>1596270156954</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596270156954</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -58,19 +69,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Typescript Configuration Completed" />
+    <MESSAGE value="Boiler Plate Created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Boiler Plate Created" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1041" y="509" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596270036392">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1041" y="509" key="#com.intellij.fileTypes.FileTypeChooser/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596270036392" />
+    <state x="887" y="218" key="CommitChangelistDialog2" timestamp="1596271018765">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="887" y="218" key="CommitChangelistDialog2/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596271018765" />
     <state x="781" y="364" key="SettingsEditor" timestamp="1596269896902">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="781" y="364" key="SettingsEditor/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596269896902" />
-    <state x="872" y="448" key="Vcs.Push.Dialog.v2" timestamp="1596268180231">
+    <state x="872" y="448" key="Vcs.Push.Dialog.v2" timestamp="1596270160563">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="872" y="448" key="Vcs.Push.Dialog.v2/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596268180231" />
+    <state x="872" y="448" key="Vcs.Push.Dialog.v2/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596270160563" />
   </component>
 </project>
