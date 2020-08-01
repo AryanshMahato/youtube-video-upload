@@ -1,3 +1,4 @@
+require("dotenv").config();
 import { startServer } from "./startServer";
 import { uploadToYoutube } from "./controller/UploadToYoutube";
 import cors from "cors";

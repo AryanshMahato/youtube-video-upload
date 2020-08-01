@@ -5,4 +5,11 @@ export class EnvConfig {
 
     return process.env.PORT;
   }
+
+  public static getAuthToken(): string {
+    if (!process.env.AUTH_TOKEN)
+      throw new Error("Add Auth Token in Environment variables");
+
+    return process.env.AUTH_TOKEN;
+  }
 }

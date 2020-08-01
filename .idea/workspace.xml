@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24670335-0428-469f-8e8f-b2d2f41f7ace" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env_sample" afterDir="false" />
+    <list default="true" id="24670335-0428-469f-8e8f-b2d2f41f7ace" name="Default Changelist" comment="Upload completed">
+      <change afterPath="$PROJECT_DIR$/client_secret.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/GoogleAuth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/YoutubeUpload.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/Auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env_sample" beforeDir="false" afterPath="$PROJECT_DIR$/.env_sample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/UploadToYoutube.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/UploadToYoutube.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/EnvConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/EnvConfig.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +50,15 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\aryan\AppData\Roaming\npm\node_modules\prettier" />
     <property name="run.prettier.on.save" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
-    <property name="ts.external.directory.path" value="C:\Users\aryan\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\202.6397.88\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="C:\Users\aryan\Desktop\Programming\youtube-video-upload\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aryan\Desktop\Programming\youtube-video-upload" />
+      <recent name="C:\Users\aryan\Desktop\Programming\youtube-video-upload\src\Constants" />
+      <recent name="C:\Users\aryan\Desktop\Programming\youtube-video-upload\src" />
+      <recent name="C:\Users\aryan\Desktop\Programming\youtube-video-upload\src\controller" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -52,7 +68,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596268174794</updated>
-      <workItem from="1596268176005" duration="3421000" />
+      <workItem from="1596268176005" duration="5994000" />
+      <workItem from="1596284252115" duration="7849000" />
     </task>
     <task id="LOCAL-00001" summary="Typescript Configuration Completed">
       <created>1596270156954</created>
@@ -68,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596271027719</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Configuration Completed">
+      <created>1596272138903</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596272138903</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,37 +102,39 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Typescript Configuration Completed" />
     <MESSAGE value="Boiler Plate Created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Boiler Plate Created" />
+    <MESSAGE value="Configuration Completed" />
+    <MESSAGE value="Upload completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload completed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1041" y="509" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596271284490">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1041" y="509" key="#com.intellij.fileTypes.FileTypeChooser/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596271284490" />
-    <state x="887" y="218" key="CommitChangelistDialog2" timestamp="1596271026407">
+    <state x="887" y="218" key="CommitChangelistDialog2" timestamp="1596292113799">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="887" y="218" key="CommitChangelistDialog2/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596271026407" />
+    <state x="887" y="218" key="CommitChangelistDialog2/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596292113799" />
     <state x="1060" y="474" key="FileChooserDialogImpl" timestamp="1596271173418">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1060" y="474" key="FileChooserDialogImpl/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596271173418" />
-    <state width="2561" height="159" key="GridCell.Tab.0.bottom" timestamp="1596271411893">
+    <state width="2561" height="159" key="GridCell.Tab.0.bottom" timestamp="1596272530831">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2561" height="159" key="GridCell.Tab.0.bottom/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596271411893" />
-    <state width="2561" height="159" key="GridCell.Tab.0.center" timestamp="1596271411892">
+    <state width="2561" height="159" key="GridCell.Tab.0.bottom/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596272530831" />
+    <state width="2561" height="159" key="GridCell.Tab.0.center" timestamp="1596272530830">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2561" height="159" key="GridCell.Tab.0.center/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596271411892" />
-    <state width="2561" height="159" key="GridCell.Tab.0.left" timestamp="1596271411892">
+    <state width="2561" height="159" key="GridCell.Tab.0.center/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596272530830" />
+    <state width="2561" height="159" key="GridCell.Tab.0.left" timestamp="1596272530830">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2561" height="159" key="GridCell.Tab.0.left/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596271411892" />
-    <state width="2561" height="159" key="GridCell.Tab.0.right" timestamp="1596271411893">
+    <state width="2561" height="159" key="GridCell.Tab.0.left/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596272530830" />
+    <state width="2561" height="159" key="GridCell.Tab.0.right" timestamp="1596272530830">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2561" height="159" key="GridCell.Tab.0.right/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596271411893" />
+    <state width="2561" height="159" key="GridCell.Tab.0.right/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596272530830" />
     <state x="781" y="364" key="SettingsEditor" timestamp="1596271251960">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -117,5 +143,9 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="872" y="448" key="Vcs.Push.Dialog.v2/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596271029636" />
+    <state x="988" y="437" width="583" height="566" key="find.popup" timestamp="1596290741143">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="988" y="437" width="583" height="566" key="find.popup/2560.351.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1596290741143" />
   </component>
 </project>
